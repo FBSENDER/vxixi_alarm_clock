@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE88DF8B1C77104B00802966 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88DF8A1C77104B00802966 /* AppDelegate.swift */; };
+		CE88DF8D1C77104B00802966 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88DF8C1C77104B00802966 /* ViewController.swift */; };
+		CE88DF901C77104B00802966 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE88DF8E1C77104B00802966 /* Main.storyboard */; };
+		CE88DF921C77104B00802966 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CE88DF911C77104B00802966 /* Assets.xcassets */; };
+		CE88DF951C77104B00802966 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CE88DF931C77104B00802966 /* LaunchScreen.storyboard */; };
+		CE88DFA01C77104B00802966 /* vxixi_alarm_clockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88DF9F1C77104B00802966 /* vxixi_alarm_clockTests.swift */; };
+		CE88DFAB1C77104B00802966 /* vxixi_alarm_clockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE88DFAA1C77104B00802966 /* vxixi_alarm_clockUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CE88DF9C1C77104B00802966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE88DF7F1C77104B00802966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE88DF861C77104B00802966;
+			remoteInfo = vxixi_alarm_clock;
+		};
+		CE88DFA71C77104B00802966 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CE88DF7F1C77104B00802966 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CE88DF861C77104B00802966;
+			remoteInfo = vxixi_alarm_clock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE88DF871C77104B00802966 /* vxixi_alarm_clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vxixi_alarm_clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE88DF8A1C77104B00802966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CE88DF8C1C77104B00802966 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CE88DF8F1C77104B00802966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CE88DF911C77104B00802966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CE88DF941C77104B00802966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CE88DF961C77104B00802966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE88DF9B1C77104B00802966 /* vxixi_alarm_clockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vxixi_alarm_clockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE88DF9F1C77104B00802966 /* vxixi_alarm_clockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vxixi_alarm_clockTests.swift; sourceTree = "<group>"; };
+		CE88DFA11C77104B00802966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE88DFA61C77104B00802966 /* vxixi_alarm_clockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vxixi_alarm_clockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE88DFAA1C77104B00802966 /* vxixi_alarm_clockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vxixi_alarm_clockUITests.swift; sourceTree = "<group>"; };
+		CE88DFAC1C77104B00802966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE88DF841C77104B00802966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE88DF981C77104B00802966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE88DFA31C77104B00802966 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE88DF7E1C77104B00802966 = {
+			isa = PBXGroup;
+			children = (
+				CE88DF891C77104B00802966 /* vxixi_alarm_clock */,
+				CE88DF9E1C77104B00802966 /* vxixi_alarm_clockTests */,
+				CE88DFA91C77104B00802966 /* vxixi_alarm_clockUITests */,
+				CE88DF881C77104B00802966 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE88DF881C77104B00802966 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE88DF871C77104B00802966 /* vxixi_alarm_clock.app */,
+				CE88DF9B1C77104B00802966 /* vxixi_alarm_clockTests.xctest */,
+				CE88DFA61C77104B00802966 /* vxixi_alarm_clockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE88DF891C77104B00802966 /* vxixi_alarm_clock */ = {
+			isa = PBXGroup;
+			children = (
+				CE88DF8A1C77104B00802966 /* AppDelegate.swift */,
+				CE88DF8C1C77104B00802966 /* ViewController.swift */,
+				CE88DF8E1C77104B00802966 /* Main.storyboard */,
+				CE88DF911C77104B00802966 /* Assets.xcassets */,
+				CE88DF931C77104B00802966 /* LaunchScreen.storyboard */,
+				CE88DF961C77104B00802966 /* Info.plist */,
+			);
+			path = vxixi_alarm_clock;
+			sourceTree = "<group>";
+		};
+		CE88DF9E1C77104B00802966 /* vxixi_alarm_clockTests */ = {
+			isa = PBXGroup;
+			children = (
+				CE88DF9F1C77104B00802966 /* vxixi_alarm_clockTests.swift */,
+				CE88DFA11C77104B00802966 /* Info.plist */,
+			);
+			path = vxixi_alarm_clockTests;
+			sourceTree = "<group>";
+		};
+		CE88DFA91C77104B00802966 /* vxixi_alarm_clockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CE88DFAA1C77104B00802966 /* vxixi_alarm_clockUITests.swift */,
+				CE88DFAC1C77104B00802966 /* Info.plist */,
+			);
+			path = vxixi_alarm_clockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE88DF861C77104B00802966 /* vxixi_alarm_clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE88DFAF1C77104B00802966 /* Build configuration list for PBXNativeTarget "vxixi_alarm_clock" */;
+			buildPhases = (
+				CE88DF831C77104B00802966 /* Sources */,
+				CE88DF841C77104B00802966 /* Frameworks */,
+				CE88DF851C77104B00802966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vxixi_alarm_clock;
+			productName = vxixi_alarm_clock;
+			productReference = CE88DF871C77104B00802966 /* vxixi_alarm_clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CE88DF9A1C77104B00802966 /* vxixi_alarm_clockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE88DFB21C77104B00802966 /* Build configuration list for PBXNativeTarget "vxixi_alarm_clockTests" */;
+			buildPhases = (
+				CE88DF971C77104B00802966 /* Sources */,
+				CE88DF981C77104B00802966 /* Frameworks */,
+				CE88DF991C77104B00802966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE88DF9D1C77104B00802966 /* PBXTargetDependency */,
+			);
+			name = vxixi_alarm_clockTests;
+			productName = vxixi_alarm_clockTests;
+			productReference = CE88DF9B1C77104B00802966 /* vxixi_alarm_clockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CE88DFA51C77104B00802966 /* vxixi_alarm_clockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE88DFB51C77104B00802966 /* Build configuration list for PBXNativeTarget "vxixi_alarm_clockUITests" */;
+			buildPhases = (
+				CE88DFA21C77104B00802966 /* Sources */,
+				CE88DFA31C77104B00802966 /* Frameworks */,
+				CE88DFA41C77104B00802966 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CE88DFA81C77104B00802966 /* PBXTargetDependency */,
+			);
+			name = vxixi_alarm_clockUITests;
+			productName = vxixi_alarm_clockUITests;
+			productReference = CE88DFA61C77104B00802966 /* vxixi_alarm_clockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE88DF7F1C77104B00802966 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = vxixi;
+				TargetAttributes = {
+					CE88DF861C77104B00802966 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+					CE88DF9A1C77104B00802966 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CE88DF861C77104B00802966;
+					};
+					CE88DFA51C77104B00802966 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = CE88DF861C77104B00802966;
+					};
+				};
+			};
+			buildConfigurationList = CE88DF821C77104B00802966 /* Build configuration list for PBXProject "vxixi_alarm_clock" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CE88DF7E1C77104B00802966;
+			productRefGroup = CE88DF881C77104B00802966 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE88DF861C77104B00802966 /* vxixi_alarm_clock */,
+				CE88DF9A1C77104B00802966 /* vxixi_alarm_clockTests */,
+				CE88DFA51C77104B00802966 /* vxixi_alarm_clockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE88DF851C77104B00802966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE88DF951C77104B00802966 /* LaunchScreen.storyboard in Resources */,
+				CE88DF921C77104B00802966 /* Assets.xcassets in Resources */,
+				CE88DF901C77104B00802966 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE88DF991C77104B00802966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE88DFA41C77104B00802966 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE88DF831C77104B00802966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE88DF8D1C77104B00802966 /* ViewController.swift in Sources */,
+				CE88DF8B1C77104B00802966 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE88DF971C77104B00802966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE88DFA01C77104B00802966 /* vxixi_alarm_clockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CE88DFA21C77104B00802966 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE88DFAB1C77104B00802966 /* vxixi_alarm_clockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CE88DF9D1C77104B00802966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE88DF861C77104B00802966 /* vxixi_alarm_clock */;
+			targetProxy = CE88DF9C1C77104B00802966 /* PBXContainerItemProxy */;
+		};
+		CE88DFA81C77104B00802966 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CE88DF861C77104B00802966 /* vxixi_alarm_clock */;
+			targetProxy = CE88DFA71C77104B00802966 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CE88DF8E1C77104B00802966 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE88DF8F1C77104B00802966 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CE88DF931C77104B00802966 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE88DF941C77104B00802966 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE88DFAD1C77104B00802966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CE88DFAE1C77104B00802966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE88DFB01C77104B00802966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vxixi_alarm_clock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CE88DFB11C77104B00802966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = vxixi_alarm_clock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clock";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CE88DFB31C77104B00802966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vxixi_alarm_clockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vxixi_alarm_clock.app/vxixi_alarm_clock";
+			};
+			name = Debug;
+		};
+		CE88DFB41C77104B00802966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = vxixi_alarm_clockTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clockTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vxixi_alarm_clock.app/vxixi_alarm_clock";
+			};
+			name = Release;
+		};
+		CE88DFB61C77104B00802966 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vxixi_alarm_clockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vxixi_alarm_clock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CE88DFB71C77104B00802966 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = vxixi_alarm_clockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clockUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = vxixi_alarm_clock;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE88DF821C77104B00802966 /* Build configuration list for PBXProject "vxixi_alarm_clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE88DFAD1C77104B00802966 /* Debug */,
+				CE88DFAE1C77104B00802966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE88DFAF1C77104B00802966 /* Build configuration list for PBXNativeTarget "vxixi_alarm_clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE88DFB01C77104B00802966 /* Debug */,
+				CE88DFB11C77104B00802966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE88DFB21C77104B00802966 /* Build configuration list for PBXNativeTarget "vxixi_alarm_clockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE88DFB31C77104B00802966 /* Debug */,
+				CE88DFB41C77104B00802966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CE88DFB51C77104B00802966 /* Build configuration list for PBXNativeTarget "vxixi_alarm_clockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE88DFB61C77104B00802966 /* Debug */,
+				CE88DFB71C77104B00802966 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE88DF7F1C77104B00802966 /* Project object */;
+}

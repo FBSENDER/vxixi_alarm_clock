@@ -16,6 +16,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
+        Notify.setupNotificationSettings()
+        Notify.setNotify()
         return true
     }
 
@@ -40,7 +42,25 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func applicationWillTerminate(application: UIApplication) {
         // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
     }
+    //print out all registed NSNotification for debug
+    func application(application: UIApplication, didRegisterUserNotificationSettings notificationSettings: UIUserNotificationSettings) {
+        
+        //print(notificationSettings.types.rawValue)
+    }
+    func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
 
+        let storageController = UIAlertController(title: "陛下，该上早朝了", message: nil, preferredStyle: .Alert)
+
+        let stopOption = UIAlertAction(title: "起驾", style: .Default) {
+            (action:UIAlertAction)->Void in
+        }
+        
+        storageController.addAction(stopOption)
+        
+        window?.rootViewController!.presentViewController(storageController, animated: true, completion: nil)
+        
+        
+    }
 
 }
 

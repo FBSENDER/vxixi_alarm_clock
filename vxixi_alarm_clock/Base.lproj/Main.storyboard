@@ -1,25 +1,131 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="14F27" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pKi-ko-StQ">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--闹钟-->
+        <scene sceneID="Sc6-nz-7zp">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
-                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                <tableViewController id="kTp-4m-7gR" customClass="MainTableViewController" customModule="vxixi_alarm_clock" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="rMs-KV-8Qi">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="2Ff-9V-Tiu">
+                                <rect key="frame" x="0.0" y="92" width="600" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="2Ff-9V-Tiu" id="2Lt-nH-BI9">
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="kTp-4m-7gR" id="q1h-qQ-LwT"/>
+                            <outlet property="delegate" destination="kTp-4m-7gR" id="vsM-1V-ebN"/>
+                        </connections>
+                    </tableView>
+                    <toolbarItems/>
+                    <navigationItem key="navigationItem" title="闹钟" id="tAx-vY-bR4">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="M8d-ra-1lF">
+                            <connections>
+                                <segue destination="hfB-Yi-g8X" kind="modal" identifier="addAlarmSegue" id="GZe-j5-cJQ"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <simulatedToolbarMetrics key="simulatedBottomBarMetrics"/>
+                    <connections>
+                        <segue destination="hfB-Yi-g8X" kind="modal" identifier="editAlarmSegue" id="eU3-YU-url"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="v21-qY-er7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="604" y="-622"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="zSS-zb-JCE">
+            <objects>
+                <navigationController id="hfB-Yi-g8X" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="4YO-X8-Q6u">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="9Ty-rj-hs1" kind="relationship" relationship="rootViewController" id="wp5-aM-eR3"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GVH-6Z-P02" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="101"/>
+        </scene>
+        <!--添加闹铃-->
+        <scene sceneID="nDB-0R-1Ha">
+            <objects>
+                <viewController id="9Ty-rj-hs1" customClass="AddAlarmViewController" customModule="vxixi_alarm_clock" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="qPG-4P-SdZ"/>
+                        <viewControllerLayoutGuide type="bottom" id="NkF-0B-3Bb"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="vDz-Oe-K7W">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <pickerView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="W0v-1d-cN0">
+                                <rect key="frame" x="-5" y="72" width="600" height="236"/>
+                            </pickerView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="W0v-1d-cN0" firstAttribute="leading" secondItem="vDz-Oe-K7W" secondAttribute="leadingMargin" constant="-25" id="Aeg-Xj-mwb"/>
+                            <constraint firstItem="NkF-0B-3Bb" firstAttribute="top" secondItem="W0v-1d-cN0" secondAttribute="bottom" constant="292" id="nwK-NG-FBh"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="W0v-1d-cN0" secondAttribute="trailing" constant="-15" id="qU3-QK-I0s"/>
+                            <constraint firstItem="W0v-1d-cN0" firstAttribute="top" secondItem="qPG-4P-SdZ" secondAttribute="bottom" constant="8" symbolic="YES" id="rwC-z4-UGW"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="添加闹铃" id="T4R-pF-YTS">
+                        <barButtonItem key="leftBarButtonItem" title="取消" id="vnU-3k-DU1">
+                            <connections>
+                                <segue destination="W4I-ud-7AA" kind="unwind" identifier="cancelAlarm" unwindAction="unwindToMainTableView:" id="u02-0o-pJM"/>
+                            </connections>
+                        </barButtonItem>
+                        <barButtonItem key="rightBarButtonItem" title="保存" id="jmv-BQ-ZP1">
+                            <connections>
+                                <action selector="saveBtnClick:" destination="9Ty-rj-hs1" id="Raq-s0-CHV"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                    <connections>
+                        <outlet property="picker1" destination="W0v-1d-cN0" id="kpe-yp-Dc7"/>
+                        <segue destination="W4I-ud-7AA" kind="unwind" identifier="saveAlarm" unwindAction="unwindToMainTableView:" id="B53-1x-tI6"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dlF-DL-SMS" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <exit id="W4I-ud-7AA" userLabel="Exit" sceneMemberID="exit"/>
+            </objects>
+            <point key="canvasLocation" x="604" y="882"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="jUy-rp-5k7">
+            <objects>
+                <navigationController id="pKi-ko-StQ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="rjv-Hq-OK7">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="kTp-4m-7gR" kind="relationship" relationship="rootViewController" id="KOd-9l-Xb1"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="PWv-cd-EU7" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-180" y="-622"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="eU3-YU-url"/>
+    </inferredMetricsTieBreakers>
 </document>

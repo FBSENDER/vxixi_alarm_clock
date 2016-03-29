@@ -48,6 +48,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //print(notificationSettings.types.rawValue)
     }
     func application(application: UIApplication, didReceiveLocalNotification notification: UILocalNotification) {
+        
+        print(notification.category)
 
         let storageController = UIAlertController(title: "陛下，该上早朝了", message: nil, preferredStyle: .Alert)
 

@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FD95AC5FE0BC3100B3F06DCB87E8301EF1547ABA",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "DE6820B9BBB7F476978F92739110C5C202A9136C" : 0,
+    "FD95AC5FE0BC3100B3F06DCB87E8301EF1547ABA" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "50CE71E5-7ABD-446C-A06B-37A67B7BAF11",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "DE6820B9BBB7F476978F92739110C5C202A9136C" : "Alarm-ios8-swift\/",
+    "FD95AC5FE0BC3100B3F06DCB87E8301EF1547ABA" : "vxixi_alarm_clock\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "王的闹钟",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "王的闹钟.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/natsu1211\/Alarm-ios8-swift.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "DE6820B9BBB7F476978F92739110C5C202A9136C"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/FBSENDER\/vxixi_alarm_clock.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FD95AC5FE0BC3100B3F06DCB87E8301EF1547ABA"
+    }
+  ]
+}

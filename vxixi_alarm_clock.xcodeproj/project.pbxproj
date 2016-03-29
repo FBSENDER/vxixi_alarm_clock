@@ -39,17 +39,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CE88DF871C77104B00802966 /* vxixi_alarm_clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vxixi_alarm_clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE88DF871C77104B00802966 /* 王的闹钟.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "王的闹钟.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE88DF8A1C77104B00802966 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CE88DF8C1C77104B00802966 /* MainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
 		CE88DF8F1C77104B00802966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CE88DF911C77104B00802966 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CE88DF941C77104B00802966 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CE88DF961C77104B00802966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE88DF9B1C77104B00802966 /* vxixi_alarm_clockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vxixi_alarm_clockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE88DF9B1C77104B00802966 /* vxixi_alarm_clock.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vxixi_alarm_clock.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE88DF9F1C77104B00802966 /* vxixi_alarm_clockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vxixi_alarm_clockTests.swift; sourceTree = "<group>"; };
 		CE88DFA11C77104B00802966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CE88DFA61C77104B00802966 /* vxixi_alarm_clockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vxixi_alarm_clockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE88DFA61C77104B00802966 /* vxixi_alarm_clock.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vxixi_alarm_clock.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CE88DFAA1C77104B00802966 /* vxixi_alarm_clockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vxixi_alarm_clockUITests.swift; sourceTree = "<group>"; };
 		CE88DFAC1C77104B00802966 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CE88DFBD1C795B7600802966 /* AddAlarmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddAlarmViewController.swift; sourceTree = "<group>"; };
@@ -97,9 +97,9 @@
 		CE88DF881C77104B00802966 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CE88DF871C77104B00802966 /* vxixi_alarm_clock.app */,
-				CE88DF9B1C77104B00802966 /* vxixi_alarm_clockTests.xctest */,
-				CE88DFA61C77104B00802966 /* vxixi_alarm_clockUITests.xctest */,
+				CE88DF871C77104B00802966 /* 王的闹钟.app */,
+				CE88DF9B1C77104B00802966 /* vxixi_alarm_clock.xctest */,
+				CE88DFA61C77104B00802966 /* vxixi_alarm_clock.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -157,7 +157,7 @@
 			);
 			name = vxixi_alarm_clock;
 			productName = vxixi_alarm_clock;
-			productReference = CE88DF871C77104B00802966 /* vxixi_alarm_clock.app */;
+			productReference = CE88DF871C77104B00802966 /* 王的闹钟.app */;
 			productType = "com.apple.product-type.application";
 		};
 		CE88DF9A1C77104B00802966 /* vxixi_alarm_clockTests */ = {
@@ -175,7 +175,7 @@
 			);
 			name = vxixi_alarm_clockTests;
 			productName = vxixi_alarm_clockTests;
-			productReference = CE88DF9B1C77104B00802966 /* vxixi_alarm_clockTests.xctest */;
+			productReference = CE88DF9B1C77104B00802966 /* vxixi_alarm_clock.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 		CE88DFA51C77104B00802966 /* vxixi_alarm_clockUITests */ = {
@@ -193,7 +193,7 @@
 			);
 			name = vxixi_alarm_clockUITests;
 			productName = vxixi_alarm_clockUITests;
-			productReference = CE88DFA61C77104B00802966 /* vxixi_alarm_clockUITests.xctest */;
+			productReference = CE88DFA61C77104B00802966 /* vxixi_alarm_clock.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -426,7 +426,7 @@
 				INFOPLIST_FILE = vxixi_alarm_clock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vxixi.alarm.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "王的闹钟";
 				PROVISIONING_PROFILE = "";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -442,7 +442,7 @@
 				INFOPLIST_FILE = vxixi_alarm_clock/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vxixi.alarm.1;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "王的闹钟";
 				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
@@ -454,7 +454,7 @@
 				INFOPLIST_FILE = vxixi_alarm_clockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clockTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = vxixi_alarm_clock;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vxixi_alarm_clock.app/vxixi_alarm_clock";
 			};
 			name = Debug;
@@ -466,7 +466,7 @@
 				INFOPLIST_FILE = vxixi_alarm_clockTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clockTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = vxixi_alarm_clock;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vxixi_alarm_clock.app/vxixi_alarm_clock";
 			};
 			name = Release;
@@ -477,7 +477,7 @@
 				INFOPLIST_FILE = vxixi_alarm_clockUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clockUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = vxixi_alarm_clock;
 				TEST_TARGET_NAME = vxixi_alarm_clock;
 				USES_XCTRUNNER = YES;
 			};
@@ -489,7 +489,7 @@
 				INFOPLIST_FILE = vxixi_alarm_clockUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "vxixi.vxixi-alarm-clockUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = vxixi_alarm_clock;
 				TEST_TARGET_NAME = vxixi_alarm_clock;
 				USES_XCTRUNNER = YES;
 			};

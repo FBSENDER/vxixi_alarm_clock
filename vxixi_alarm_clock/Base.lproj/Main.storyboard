@@ -9,7 +9,7 @@
         <!--闹钟-->
         <scene sceneID="Sc6-nz-7zp">
             <objects>
-                <tableViewController id="kTp-4m-7gR" customClass="MainTableViewController" customModule="vxixi_alarm_clock" customModuleProvider="target" sceneMemberID="viewController">
+                <tableViewController id="kTp-4m-7gR" customClass="MainTableViewController" customModule="王的闹钟" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="rMs-KV-8Qi">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -65,7 +65,7 @@
         <!--添加闹铃-->
         <scene sceneID="nDB-0R-1Ha">
             <objects>
-                <viewController id="9Ty-rj-hs1" customClass="AddAlarmViewController" customModule="vxixi_alarm_clock" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="9Ty-rj-hs1" customClass="AddAlarmViewController" customModule="王的闹钟" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="qPG-4P-SdZ"/>
                         <viewControllerLayoutGuide type="bottom" id="NkF-0B-3Bb"/>

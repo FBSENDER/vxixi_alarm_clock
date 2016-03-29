@@ -74,7 +74,7 @@ class Notify{
                 dateComp.timeZone = NSTimeZone.defaultTimeZone()
                 let alarmCalender = NSCalendar.currentCalendar()
                 let alarmDate:NSDate = alarmCalender.dateFromComponents(dateComp)!
-                AlarmNotification.fireDate = alarmDate
+                AlarmNotification.fireDate = alarmDate.compare(NSDate()) == .OrderedDescending ? alarmDate : NSDate(timeInterval: 24 * 60 * 60, sinceDate: alarmDate)
                 AlarmNotification.repeatInterval = .Day
                 UIApplication.sharedApplication().scheduleLocalNotification(AlarmNotification)
             }else if(alarm.alarmType == 3){
@@ -83,7 +83,7 @@ class Notify{
                 dateComp.timeZone = NSTimeZone.defaultTimeZone()
                 let alarmCalender:NSCalendar = NSCalendar.currentCalendar()
                 let alarmDate:NSDate = alarmCalender.dateFromComponents(dateComp)!
-                AlarmNotification.fireDate = alarmDate
+                AlarmNotification.fireDate = alarmDate.compare(NSDate()) == .OrderedDescending ? alarmDate : NSDate(timeInterval: 24 * 60 * 60, sinceDate: alarmDate)
                 AlarmNotification.repeatInterval = .Weekday
                 UIApplication.sharedApplication().scheduleLocalNotification(AlarmNotification)
             }else if(alarm.alarmType == 2){
@@ -104,6 +104,9 @@ class Notify{
                     dateComp.timeZone = NSTimeZone.defaultTimeZone()
                     let alarmCalender:NSCalendar = NSCalendar.currentCalendar()
                     let alarmDate:NSDate = alarmCalender.dateFromComponents(dateComp)!
+                    if(num == 0 && alarmDate.compare(NSDate()) == .OrderedAscending){
+                        continue
+                    }
                     let timeI = NSTimeInterval(num * 24 * 60 * 60)
                     AlarmNotification.fireDate = NSDate(timeInterval: timeI, sinceDate: alarmDate)
                     let notify = AlarmNotification.copy()
